@@ -1,6 +1,6 @@
 ---
 layout: post
-title: deliteful widgets: ComboBox and Select
+title: ComboBox or Select, which one to pick?
 author: AdrianVasiliu
 ---
 
