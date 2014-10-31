@@ -7,7 +7,7 @@ author: AdrianVasiliu
 As announced in this [previous post](http://ibm-js.github.io/2014/10/24/0.4.0-counting.html), 
 the [deliteful](http://ibm-js.github.io/deliteful) project now includes includes a preview of
 the [ComboBox](https://github.com/ibm-js/deliteful/blob/master/docs/ComboBox.md) widget. 
-This short note aims to:
+This post aims to:
 * Explain how the new widget complements the existing 
 [Select](https://github.com/ibm-js/deliteful/blob/master/docs/Select.md) widget.
 * Provide a guidance about the criteria for choosing which of the two widgets fits better 
@@ -55,7 +55,8 @@ on the needs of your app:
   * You need text-only rendering of options, and
   * You do not need the interactive filtering capabilities, that is typing characters to
   filter the shown options depending on whether they match (for a relatively small number
-  of options this feature is usually not mandatory). 
+  of options this feature is usually not mandatory; on mobile it can be more annoying to get
+  the keyboard open than to just touch the option you need). 
 * Pick `ComboBox` if:
   * You need full customization of the rendering of options (text-only is not good enough), or
   * The number of options is high hence you need the interactive filtering capabilities.
