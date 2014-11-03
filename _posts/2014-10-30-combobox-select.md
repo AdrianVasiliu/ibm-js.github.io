@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ComboBox or Select, which one to pick?
+title: "ComboBox or Select: which one to pick?"
 author: AdrianVasiliu
 ---
 
@@ -8,6 +8,7 @@ As announced in this [previous post](http://ibm-js.github.io/2014/10/24/0.4.0-co
 the [deliteful](http://ibm-js.github.io/deliteful) project now includes a preview of
 the [ComboBox](http://ibm-js.github.io/deliteful/docs/master/ComboBox.html) widget. 
 This post aims to:
+
 * Explain how the new widget complements the existing 
 [Select](http://ibm-js.github.io/deliteful/docs/master/Select.html) widget.
 * Provide a guidance about the criteria for choosing which of the two widgets fits better 
@@ -15,6 +16,7 @@ depending on application needs.
 
 The widgets `ComboBox` (custom tag: `d-combo-box`) and `Select` (custom tag: `d-select`)
 share a number of characteristics:
+
 * Allow to select one or more items among a number of options (in single or multiple 
 selection modes).
 * Benefit from [delite](http://ibm-js.github.io/delite)'s 
@@ -31,12 +33,15 @@ thanks to the new [`d-store`](http://ibm-js.github.io/deliteful/docs/master/Stor
 custom element.
 
 The two widgets also differ by other features; only `ComboBox` provides:
+
 * Powerful 
 [rendering customization mechanism](http://ibm-js.github.io/deliteful/docs/master/list/List.html#customRenderers)
 for the options and 
 [categorization](http://ibm-js.github.io/deliteful/docs/master/list/List.html#categories).
 * [Interactive filtering](http://ibm-js.github.io/deliteful/docs/master/ComboBox.html#using)
 of the options by typing one or more characters (optionally).
+
+<!--more-->
 
 The key differenciator of the two widgets is the fact that `Select` leverages the
 HTML `select` element, while `ComboBox` leverages (for the popup) the 
@@ -60,6 +65,7 @@ the positioning and sizing of the popup).
 
 Finally, here is a quick guide for picking the most appropriate widget depending
 on the needs of your app:
+
 * Pick `Select` if:
   * You need text-only rendering of options, and
   * You do not need the interactive filtering capabilities, that is typing characters to
