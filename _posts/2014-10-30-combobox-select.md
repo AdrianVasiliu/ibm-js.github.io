@@ -32,7 +32,7 @@ custom element.
 
 The two widgets also differ by other features; only `ComboBox` provides:
 * Powerful 
-[rendering customization mechanism](https://http://ibm-js.github.io/deliteful/docs/master/list/List.html#customRenderers)
+[rendering customization mechanism](http://ibm-js.github.io/deliteful/docs/master/list/List.html#customRenderers)
 for the options and 
 [categorization](http://ibm-js.github.io/deliteful/docs/master/list/List.html#categories).
 * [Interactive filtering](http://ibm-js.github.io/deliteful/docs/master/ComboBox.html#using)
